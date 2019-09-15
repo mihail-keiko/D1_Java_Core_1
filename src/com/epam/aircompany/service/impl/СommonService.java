@@ -1,15 +1,17 @@
-package com.epam.aircompany.service;
+package com.epam.aircompany.service.impl;
 
 import com.epam.aircompany.model.AbstractAviaTechnique;
 import com.epam.aircompany.model.AbstractFreightTransport;
 import com.epam.aircompany.model.AbstractPassengerTransport;
 import com.epam.aircompany.model.Airline;
+import com.epam.aircompany.service.IСommonService;
 
 import java.util.Arrays;
 import java.util.List;
 
-public class СommonService {
+public class СommonService implements IСommonService {
 
+    @Override
     public Double getCarryingCapacity(List<AbstractFreightTransport> transports) {
 
         Double result = Double.valueOf(0);
@@ -19,6 +21,7 @@ public class СommonService {
         return result;
     }
 
+    @Override
     public Integer getNumberOfPassengers(List<AbstractPassengerTransport> transports) {
 
         Integer result = 0;
@@ -28,7 +31,8 @@ public class СommonService {
         return result;
     }
 
-    List<AbstractAviaTechnique> sortingByRangeOfFlight(List<AbstractAviaTechnique> aviaTechniques) {
+    @Override
+    public List<AbstractAviaTechnique> sortingByRangeOfFlight(List<AbstractAviaTechnique> aviaTechniques) {
 
         Arrays.sort(aviaTechniques.toArray());
         return aviaTechniques;
