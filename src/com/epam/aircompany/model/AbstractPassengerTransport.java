@@ -1,6 +1,6 @@
 package com.epam.aircompany.model;
 
-public class AbstractPassengerTransport extends AbstractAviaTechnique {
+public abstract class AbstractPassengerTransport extends AbstractAviaTechnique {
     private Integer numberOfSeats;
 
     public Integer getNumberOfSeats() {

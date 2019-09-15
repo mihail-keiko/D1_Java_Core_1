@@ -1,6 +1,6 @@
 package com.epam.aircompany.model;
 
-public class AbstractFreightTransport extends AbstractAviaTechnique {
+public abstract class AbstractFreightTransport extends AbstractAviaTechnique {
     private Double carryingCapacity;
 
     public Double getCarryingCapacity() {
