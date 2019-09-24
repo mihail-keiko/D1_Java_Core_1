@@ -3,14 +3,10 @@ package com.epam.aircompany.util;
 public class DynamicArray {
 
     private Integer length = 5;
-    private Double [] array = new Double[length];
+    private Double [] array;
     private Integer count = 0;
 
     public DynamicArray() {
-    }
-
-    public DynamicArray(Integer length) {
-        this.length = length;
         array = new Double[length];
     }
 

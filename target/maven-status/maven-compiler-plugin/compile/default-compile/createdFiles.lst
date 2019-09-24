@@ -1,0 +1,14 @@
+com\epam\aircompany\model\freight\AirplaneF.class
+com\epam\aircompany\model\generic\Engine.class
+com\epam\aircompany\Main.class
+com\epam\aircompany\model\AbstractFreightTransport.class
+com\epam\aircompany\service\IСommonService.class
+com\epam\aircompany\util\GenericsDynamicArray.class
+com\epam\aircompany\model\AbstractPassengerTransport.class
+com\epam\aircompany\service\impl\СommonService.class
+com\epam\aircompany\model\passenger\AirplaneP.class
+com\epam\aircompany\model\passenger\HelicopterP.class
+com\epam\aircompany\util\DynamicArray.class
+com\epam\aircompany\model\freight\HelicopterF.class
+com\epam\aircompany\model\Airline.class
+com\epam\aircompany\model\AbstractAviaTechnique.class
