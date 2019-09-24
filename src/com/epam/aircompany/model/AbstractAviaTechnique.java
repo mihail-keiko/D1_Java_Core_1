@@ -2,7 +2,7 @@ package com.epam.aircompany.model;
 
 import com.epam.aircompany.model.generic.Engine;
 
-public abstract class AbstractAviaTechnique implements Comparable<AbstractAviaTechnique> {
+public class AbstractAviaTechnique implements Comparable<AbstractAviaTechnique> {
     private String name;
     private Engine engine;
     private String inventoryNumber;
